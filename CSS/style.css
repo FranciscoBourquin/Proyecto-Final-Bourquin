@@ -1,68 +1,27 @@
 body {
-    background-color: #a36b05;
-    height: 100vh;
+    background-color: rgb(236, 173, 58);
 }
 
-nav {
-    width: 1440px;
-    height: 88px;
-    background: black ;
-    text-align: center;
-    
+p {
+    margin-bottom: 10px;
 }
 
-li {
-    display: inline-block;
-    margin-right: 15%;
+h5 {
+    margin-bottom: 10px;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
+.ropa {
+    height: 100px; ;
+    width: 100px ;
 }
 
-a:hover {
-    color: aqua;
+.aqui {
+    color: black;
 }
 
-.inicio, .turnos, .servicios {
-    text-align: center;
-}
-
-#gato, #perro {
-    width: 282px;
-    height: 284px;
-}
-
-.accesorios {
-    margin-bottom: 50px;
-}
-
-#CP1, #AP1 {
-    margin-left: 0%;
-    text-decoration: none;
-}
-
-.wsp {
-    margin-left: 650px;
-}
-
-footer{ 
-    background: black;
-    width: 1440px;
-    height: 273px;
-}
-
-#ig, #fb {
-    width: 79px;
-    height: 78px;
-}
-
-.t_redes {
-    color: white;
-    margin-bottom: 50px;
-}
-
-#copyright {
-    color: white;
+footer {
+    color: gray;
+    background-color: black;
+    bottom: 0%;
+    position: fixed;
 }
