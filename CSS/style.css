@@ -6,11 +6,17 @@ p {
     margin-bottom: 10px;
 }
 
+#importante {
+    margin-top: 50px;
+    color: white;
+    background-color: red;
+}
+
 h5 {
     margin-bottom: 10px;
 }
 
-.ropa {
+.ropa, .alimento {
     height: 100px; ;
     width: 100px ;
 }
