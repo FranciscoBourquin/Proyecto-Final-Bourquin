@@ -6,10 +6,14 @@ p {
     margin-bottom: 10px;
 }
 
-#importante {
+#importante, #recordatorio_importante {
     margin-top: 50px;
     color: white;
     background-color: red;
+}
+
+#importante h5, #recordatorio_importante h5 {
+    text-decoration: underline;
 }
 
 h5 {
