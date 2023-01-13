@@ -25,6 +25,17 @@ h5 {
     width: 100px ;
 }
 
+.peluqueria {
+    height: 250px;
+    width: 250px;
+}
+
+.guarderia {
+    height: 250px;
+    width: 250px;
+    margin-left: 12px;
+}
+
 .aqui {
     color: black;
 }
