@@ -25,6 +25,10 @@ h5 {
     width: 100px ;
 }
 
+.ropa:hover, .alimento:hover {
+    transform: scale(3);
+}
+
 .peluqueria {
     height: 250px;
     width: 250px;
