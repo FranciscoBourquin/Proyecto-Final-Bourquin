@@ -1,10 +1,15 @@
 body {
-    background-color: rgb(236, 173, 58);
+    background-color: rgb(255, 209, 123);
+    width: 100vw;
+    height: 100vh;
 }
+
 
 p {
     margin-bottom: 10px;
 }
+
+@import './layout/nav', './layout/footer', './layout/index'
 
 
 
