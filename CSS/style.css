@@ -1,52 +1,95 @@
 body {
-    background-color: rgb(236, 173, 58);
-}
+  background-color: #ffd17b;
+  width: 100vw;
+  height: 100vh; }
 
 p {
-    margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 
-#importante, #recordatorio_importante {
-    margin-top: 50px;
-    color: white;
-    background-color: red;
-}
-
-#importante h5, #recordatorio_importante h5 {
-    text-decoration: underline;
-}
-
-h5 {
-    margin-bottom: 10px;
-}
-
-.ropa, .alimento {
-    height: 100px; ;
-    width: 100px ;
-}
-
-.ropa:hover, .alimento:hover {
-    transform: scale(3);
-}
-
-.peluqueria {
-    height: 250px;
-    width: 250px;
-}
-
-.guarderia {
-    height: 250px;
-    width: 250px;
-    margin-left: 12px;
-}
-
-.aqui {
-    color: black;
-}
+nav {
+  width: 100vw; }
 
 footer {
-    color: gray;
-    background-color: black;
-    bottom: 0%;
-    position: fixed;
-}
+  width: 100vw;
+  color: gray;
+  background-color: black;
+  bottom: 0%;
+  position: fixed; }
+
+.subtitulo {
+  margin-bottom: 25px; }
+
+.somos, .servicios, .medico, .tienda {
+  border: solid black;
+  border: 2px 2px, 2px, 2px;
+  border-radius: 15px; }
+
+.margin {
+  margin-bottom: 20px; }
+
+.somos {
+  background-color: #323254;
+  color: white; }
+
+.servicios {
+  color: white;
+  background-color: #7837b1; }
+
+.tienda {
+  color: white;
+  background-color: #5e0606; }
+
+.medico {
+  color: white;
+  background-color: #ba3a3a; }
+
+h5 {
+  text-decoration: underline;
+  text-align: center; }
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold; }
+
+.ropa {
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 60px; }
+
+.pedidos {
+  color: white;
+  text-align: center;
+  background-color: red;
+  margin-top: 20px;
+  border-color: black;
+  border-style: solid;
+  border: 5px 5px; }
+
+#importante, #emergencia {
+  color: white;
+  background-color: red;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 45px; }
+
+.nuevo {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background-color: #c1c70e;
+  margin-right: 10px; }
+
+.conocido {
+  text-align: center;
+  background-color: green;
+  color: black;
+  font-weight: bold; }
+
+.guarderia {
+  color: white;
+  background-color: #434bee;
+  text-align: center;
+  margin-top: 25px; }
