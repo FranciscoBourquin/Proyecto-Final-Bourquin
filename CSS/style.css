@@ -1,20 +1,25 @@
 body {
     min-height: 100vh;
 }
+
 h1, h2 {
     text-decoration: underline;
 }
+
 img {
     height: 70px;
     width: 70px;
 }
+
 img:hover {
     transform: scale(3);
 }
-.peluqueria {
+
+.peluqueria, .inicio {
     width: 100px;
     height: 100px;
 }
+
 footer {
     position: sticky;
     top: 100%;
