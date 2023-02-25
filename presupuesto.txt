@@ -1,0 +1,3 @@
+Diseño y maquetación de sitio responsivo/adaptativo $75,504
+home y 4 secciones (mobile y desktop)
+html5 css3, tailwind (framework css), javascript
